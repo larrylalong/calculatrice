@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ma calculatrice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    
+</head>
+<body>
+    
+    <div class="container border">
+        <div><p class="para">made in SEED L2</p></div>
+        <div class="ecran">
+            <input type="text" id="resultat" class="input" value="" placeholder="0" disabled>
+        </div>
+        <div class="start">
+            <ul class="">
+                <li><button class="button button_2nd">2nd</button></li>
+                <li><button class="button button_DRG">DRG</button></li>
+                <li><button class="button button_OFF">OFF</button></li>
+                <li><button class="button button_ON" onclick="on();">ON</button></li>
+            </ul>
+        </div>
+        <div class="fonction">
+            <ul class="lignefonc1">
+                <li><button value="hyp" id="btnhyp"  class="button button_hyp" onclick="btnhyp();">hyp</button></li>
+                <li><button value="sin" id="btnsin" class="button button_sin" onclick="btnsin();">sin</button></li>
+                <li><button value="cos" id="btncos" class="button button_cos" onclick="btncos();">cos</button></li>
+                <li><button value="tan" id="btntan" class="button button_tan" onclick="btntan();">tan</button></li>
+                <li><button value="" class="button button_F-E">F-E</button></li>
+                <li><button class="button button_CE" id="supprime" onclick="supp();">CE</button></li>
+            </ul>
+            <ul class="lignefonc2">
+                <li><button class="button button_xd" id="btnexp" onclick="btnexp();">e<sup>x</sup></button></li>
+                <li><button value="ln" id="btnln" class="button button_ln" onclick="btnln();">ln</button></li>
+                <li><button value="log" id="btnlog" class="button button_log" onclick="btnlog();">log</button></li>
+                <li><button class="button button_a">a</button></li>
+                <li><button class="button button_b">b</button></li>
+                <li><button class="button button_-">-></button></li>
+            </ul>
+            <ul class="lignefonc3">
+                <li><button class="button button_ESP">ESP</button></li>
+                <li><button class="button button_y">y
+                <sup>*</sup></button></li>
+                <li><button class="button button_v">v
+                <sup><sup>_</sup></sup></button></li>
+                <li><button class="button button_x">X
+                <sup>2</sup></button></li>
+                <li><button class="button button_paren1">(</button></li>
+                <li><button class="button button_paren2">)</button></li>
+            </ul>
+        </div>
+        <div class="numOper ">
+            <ul class="">
+              <li><div class="num">
+                  <ul>
+                      <li><button value="1" class="button button1" id="btn1" onclick="btn1();">1</button></li>
+                      <li><button value="2" class="button button2" id="btn2" onclick="btn2();">2</button></li>
+                      <li><button value="3" class="button button3" id="btn3" onclick="btn3();">3</button></li>
+                  </ul>
+                  <ul>
+                      <li><button value="4" class="button button4" id="btn4" onclick="btn4();">4</button></li>
+                      <li><button value="5" class="button button5" id="btn5" onclick="btn5();">5</button></li>
+                      <li><button value="6" class="button button6" id="btn6" onclick="btn6();">6</button></li>
+                  </ul>
+                  <ul>
+                      <li><button value="7" class="button button7" id="btn7" onclick="btn7();">7</button></li>
+                      <li><button value="8" class="button button8" id="btn8" onclick="btn8();">8</button></li>
+                      <li><button value="9" class="button button9" id="btn9" onclick="btn9();">9</button></li>
+                  </ul>
+                  <ul>
+                      <li><button value="0" class="button button0" id="btn0" onclick="btn0();">0</button></li>
+                      <li><button value="-" class="button button_plus_moin" id="btnplusmoin" onclick="btnplusmoin();">+/_</button></li>
+                      <li><button value="." class="button button_point" id="btnpoint" onclick="btnpoint();">.</button></li>
+                  </ul>
+              </div></li>
+              <li><div class="oper">
+                  <ul>
+                      <li><button  value="/" class="button button0" id="btndiv" onclick="btndiv();">/</button></li>
+                      <li><button  value="" class="button buttonmx" id="btnmx" onclick="btnxm();">X-M</button></li>
+                  </ul>
+                  <ul>
+                      <li><button  value="*" class="button buttonx" id="btnmul" onclick="btnmul();">X</button></li>
+                      <li><button  value="" class="button button0" id="btnrm" onclick="btnrm();">RM</button></li>
+                  </ul>
+                  <ul>
+                      <li><button  value="-" class="button button0" id="btnmoin" onclick="btnmoin();">-</button></li>
+                      <li><button  value="" class="button button0" id="btnmplus" onclick="btnmplus();">M+</button></li>
+                  </ul>
+                  <ul>
+                      <li><button  value="+" class="button buttonplus" id="btnplus" onclick="btnplus();">+</button></li>
+                      <li><button  class="button buttonegal" id="btnegal" onclick="btnegal();">=</button></li>
+                  </ul>
+              </div></li>
+            </ul>
+        </div>
+       
+    </div>
+    
+   </div>
+
+
+    <script src="js/style.js"> 
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.border{
+    border:1px solid black;
+}
+.para{
+color: aliceblue;
+font-size: 20px;
+text-align: center;
+font-style: italic;
+}
+.container{
+    width: 300px;
+    height: 450px;
+    position: relative;
+    top:120px;
+    left: 380px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 9px 9px 9px 9px rgb(28, 15, 15);
+    background-color: #000;
+}
+/* .ecran{
+    width: 300px;
+    margin-left: 0px;
+    padding: 0px 0px 0px 0px; 
+    font-size: 40px;
+} */
+.input{
+    width: 300px;
+    text-align: right;
+    padding: 6px 0px 6px 0px; 
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: rgb(203, 245, 145);
+}
+/*debut du design des boutons start */
+.button {
+  display: inline-block;
+  padding: 3px 7px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(16, 54, 68);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px #999;
+  margin-left: 20px;
+}
+
+.button:hover {background-color: #a3aea3}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+.start ul {   
+width: 300px;
+padding: 2px 0px;
+margin-right: 21px;
+margin-top: 10px
+}
+.start ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.start ul li .button_2nd{
+margin-left: 15 px;
+font-size: 10px;
+}
+.start ul li .button_DRG{
+margin-left: 20px;
+font-size: 10px;
+}
+.start ul li .button_OFF{
+font-size: 10px;
+margin-left:80px;
+}
+.start ul li .button_ON{
+font-size: 10px;
+margin-left:10px;
+}
+
+/* fin des modification des boutons start*/
+
+/* debut des modification des boutons function*/
+.fonction ul {
+margin-left: -40px;  
+}
+.fonction ul li{
+display: inline-block;
+list-style-type: none;
+padding: 0px;
+margin-left: -10px;
+}
+.fonction li .button{
+    background-color: rgb(175, 102, 102);
+}
+.fonction li .button:hover{
+    background-color: #fff;
+    color: black;
+}
+.fonction .lignefonc1 li button{
+font-size: 10px;
+margin-left: 25px;
+}
+.fonction .lignefonc1 li .button_F-E{
+font-size: 9px;
+}
+.fonction .lignefonc2 li button{
+font-size: 10px;
+margin-left: 25px;
+padding: 3.5px 10px;
+}
+.fonction .lignefonc2 li .button_log{
+    padding: 3.5px 8px;
+}
+.fonction .lignefonc2 li .button_a{
+    padding: 3.5px 11px;
+}
+.fonction .lignefonc2 li .button_b{
+    padding: 3.5px 11px;
+}
+.fonction .lignefonc2 li .button_-{
+    padding: 3.5px 8px;
+}
+
+
+.fonction .lignefonc3 li button{
+font-size: 9px;
+margin-left: 25px;
+padding: 3.5px 10px;
+}
+.fonction .lignefonc3 li .button_ESP{
+    padding: 3.5px 6px;
+}
+.fonction .lignefonc3 li .button_y{
+    padding: 2.5px 9px;
+}
+.fonction .lignefonc3 li .button_v{
+    padding: 2.5px 9px;
+}
+.fonction .lignefonc3 li .button_x{
+    padding: 2.5px 9px;
+}
+.fonction .lignefonc3 li .button_paren1{
+    padding: 2.5px 11px;
+}
+.fonction .lignefonc3 li .button_paren2{
+    padding: 2.5px 11px;
+}
+
+
+/* fin des modification des boutons  function*/
+
+/* debiut des modification des boutons  numoper*/
+.numOper ul {
+    margin-left: 8px;
+    padding: 0px;
+    height: 30px;
+}
+.numOper ul li{
+    margin-left: 2px;
+    display: inline-block;
+}
+.numOper ul li .num{
+margin-left: -26px;
+margin-top: 6px;
+}
+.numOper ul li .oper{
+position: relative;
+bottom: 0px;
+left: -10px;
+}
+.numOper ul li .oper ul{
+margin-top: 4px;
+}
+.numOper ul li .num ul li .button{
+padding: 4px 14px;
+margin-top: 6px;
+}
+.numOper ul li .num ul{
+    margin-top: 4px;
+}
+ul li .num .button_point{
+    margin-left: 10px;
+}
+.numOper ul li ul .buttonx{
+padding: 3px 4px;
+}
+.numOper ul li ul .buttonplus{
+padding: 3px 4.5px;
+}
+.numOper ul li ul .button_plus_moin{
+padding: 3px 3px;
+font-size: 15px;
+}
+.numOper ul li ul .buttonegal{
+padding: 3px 13px;
+}
+.numOper ul li ul .buttonmx{
+padding: 3px 5px;
+}
+
+
+/* debut des modification des boutons  num*/
+
+
+
+/* fin des modification des boutons  num*/
+
+
+
+
+
+/* debut des modification des boutons  operateur*/
+
+
+
+/* fin des modification des boutons  operateur*/
+
+
+
+
+
+
+
+/* fin des modification des boutons  numoper/
